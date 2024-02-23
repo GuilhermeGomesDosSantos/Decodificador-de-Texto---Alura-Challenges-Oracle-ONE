@@ -19,10 +19,10 @@ let matriz_code = [
 
 function verificarCaractereEspecial() {
     var texto = inserirTexto.value
-    var regex = /[!@#$%^&*(),.?":{}|<>/\s/]/;
+    var regex = /[!@#$%^&*(),.?":{}|<>/\s/\/[A-Z]/;
 
-    if (regex.test(texto.value)) {
-        alert('ATENÇÃO, Não pode conter caracteres especial!')
+    if (regex.test(texto)) {
+        alert('ATENÇÃO, Não pode conter caracteres especiais ou Letra Maiusculas!!!')
         return false;
     } else {
         alert('OK');
