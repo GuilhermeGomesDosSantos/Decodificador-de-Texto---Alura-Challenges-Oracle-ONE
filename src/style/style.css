@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
 }
@@ -68,8 +68,10 @@ label[input-texto] {
     border-radius: 5px;
     resize: vertical;
 }
-*/
 
+
+
+/*
 body {
     background: F3F5FC;
 }
@@ -204,3 +206,4 @@ main {
     position: relative;
     bottom: 20vh;
 }
+*/
