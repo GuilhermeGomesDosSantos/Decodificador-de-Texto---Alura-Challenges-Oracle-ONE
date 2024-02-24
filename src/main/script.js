@@ -1,5 +1,5 @@
 const inserirTexto = document.querySelector('.inserirTexto');
-const btn_criptografar = document.querySelector('.btn_criptografar');
+const btn_criptografar = document.querySelector('#codificador');
 const btn_copiar_texto = document.querySelector('.btn_copiar_texto');
 const texto_criptografado = document.querySelector('.texto_criptografado');
 

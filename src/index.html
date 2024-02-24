@@ -10,26 +10,32 @@
 </head>
 
 <body>
-    <main class="apresentacao">
-        <section>
-            <textarea class="inserirTexto" type="text" placeholder="Digite seu texto"></textarea>
+    <header>
+        <img src="./img/logo-alura.png" alt="Logo da Alura" class="logo">
+        <div class="contato">
+            <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img src="img/linkedin-logo.png"
+                    alt="Logo do LinkedIn" class="linkedin"></a>
+            <a href="https://github.com/Aliine98"><img src="img/github-logo.png" alt="Logo do GitHub"
+                    class="github"></a>
+        </div>
+    </header>
 
-            <div>
-                <label for="" input-texto>Digite apenas letras minusculas e sem acento</label>
-            </div>
+    <main>
+        <div class="criptografia">
+            <textarea wrap="hard" class="inserirTexto" type="text" placeholder="Digite seu texto"></textarea>
+            <p class="aviso"><img src="./img/exclamacao.png"> apenas letras minusculas e sem acento</p>
 
-            <div>
-                <button class="btn_criptografar">Criptografar</button>
-                <button class="btn_descriptografar">Descriptografar</button>
+            <div class="btn_criptografia">
+                <button id="codificador" class="btn">Criptografar</button>
+                <button id="decoficador" class="btn">Descriptografar</button>
             </div>
-            
-            <div>
-                <textarea class="texto_criptografado" placeholder="Texto Criptografado" readonly></textarea>
-            </div>
-            <div>
-            <button class="btn_copiar_texto">Copiar Texto</button>
-            </div>
-        </section>
+        </div>
+
+        <div class="resultado">
+            <textarea class="texto_criptografado" placeholder="Texto Criptografado" readonly></textarea>
+            <button id="copiar" class="btn">Copiar Texto</button>
+            <button id="limpar" class="btn">Limpar Campos</button>
+        </div>
     </main>
 
     <script src="./main/script.js"></script>
